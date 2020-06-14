@@ -1,0 +1,105 @@
+*{
+	font-family: 'Baloo';
+}
+.b{
+	background-color: #f9ede7;
+}
+.n1{
+	margin: 0px 50px;
+}
+#image{
+	display: block;
+	border-radius: 50%;
+	width: 200px;
+	margin: 100px auto 50px auto;
+}
+.name{
+	text-align: center;
+}
+.project1 img{
+	display: block;
+	width: 100%;
+	height: 75vh;
+	margin: 15px auto;
+
+}
+.project2 img{
+	display: block;
+	width: 100%;
+	height: 75vh;
+	margin: 15px auto;
+
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project1:hover .image2 {
+  opacity: 0.3;
+}
+
+.project1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project2:hover .image3 {
+  opacity: 0.3;
+}
+
+.project2:hover .middle2 {
+  opacity: 1;
+}
+
+.text2 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.info{
+	display: block;
+	font-size: 30px;
+	margin: 0px auto;
+}
+.c {width: 90%; background-color: #f5b18f;}
+.html {width: 90%; background-color: #f5b18f;}
+.bootstrap {width: 80%; background-color: #f5b18f;}
+.css {width: 80%; background-color: #f5b18f;}
+.js {width: 65%; background-color: #f5b18f;}
+.jquery {width: 65%; background-color: #f5b18f;}
+.php {width: 60%; background-color: #f5b18f;}
+.mysql {width: 60%; background-color: #f5b18f;}
+.contact{
+	background: linear-gradient(to bottom, rgba(218, 165, 146, .4)0, 
+		rgba(218, 165, 146, .4) 100%), url(image/background.jpg);
+}
+.c1{
+	border-color: white;
+	background:transparent;
+	color: white;
+}
+.ft{background-color: #f5b18f; color: blue;}
